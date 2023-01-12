@@ -133,3 +133,34 @@ h2 {
     color: #77777f;
     text-align: center;
 }
+
+.main-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 8em;
+}
+
+.container-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 60%;
+}
+
+.quote {
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.author {
+    font-size: 26px;
+    font-weight: 900;
+    color: #1f2937;
+    align-self: flex-end;
+    padding: 1em;
+}
