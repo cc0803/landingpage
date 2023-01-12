@@ -109,7 +109,8 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1em;
+    gap: 3em;
+    margin-bottom: 3em;
 }
 
 .boxes {
