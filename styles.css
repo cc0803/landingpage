@@ -86,7 +86,7 @@ h1 {
 button {
     background-color: #3882f6;
     padding: 0.5em 2em;
-    border-radius: 10%;
+    border-radius: 5px;
     color: #f9faf8;
     border: 0;
 }
@@ -125,7 +125,7 @@ h2 {
 .box {
     height: 150px;
     width: 150px;
-    border-radius: 10%;
+    border-radius: 20px;
     border: 4px solid #3882f6;
 }
 
@@ -163,4 +163,22 @@ h2 {
     color: #1f2937;
     align-self: flex-end;
     padding: 1em;
+}
+
+.lower-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8em;
+}
+
+.container-sign-up {
+    background-color: #3882f6;
+    padding: 2em 4em;
+    border-radius: 20px;
+}
+
+h4 {
+    color: #f9faf8;
+    font-size: 26px;
 }
