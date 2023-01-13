@@ -1,5 +1,4 @@
 html {
-    background-color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,8 +17,6 @@ body {
 }
 
 .head {
-    display: flex;
-    flex-direction: column;
     color: #f9faf8;
     padding: 0.5em 6em 4em 6em;
     max-width: 60%;
@@ -56,9 +53,7 @@ h1 {
 }
 
 .vertical {
-    display: flex;
     align-items: flex-start;
-    flex-direction: column;
     max-width: 40%;
     margin: 1em;
 }
@@ -71,13 +66,8 @@ h1 {
 }
 
 .placeholder {
-    flex: auto;
     max-width: 45%;
     background-color: #77777f;
-}
-
-.flex-auto {
-    flex: auto
 }
 
 button {
@@ -86,10 +76,6 @@ button {
     border-radius: 5px;
     color: #f9faf8;
     border: 0;
-}
-
-.upper-body {
-    flex-direction: column;
 }
 
 h2 {
@@ -105,10 +91,8 @@ h2 {
 }
 
 .boxes {
-    display: flex;
     justify-content: baseline;
     align-items: center;
-    flex-direction: column;
     max-width: 150px;
     height: 300px;
 }
@@ -120,7 +104,7 @@ h2 {
     border: 4px solid #3882f6;
 }
 
-.upper-body p {
+.boxes p {
     color: #77777f;
     text-align: center;
 }
@@ -131,8 +115,6 @@ h2 {
 }
 
 .container-quote {
-    display: flex;
-    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     max-width: 60%;
@@ -170,8 +152,6 @@ h2 {
 .text {
     color: #f9faf8;
     font-size: 16px;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     margin-left: 4em;
 }
@@ -179,6 +159,7 @@ h2 {
 h4 {
     font-size: 26px;
     margin: 0;
+    margin-bottom: -8px;
 }
 
 .sign-up button {
@@ -187,13 +168,8 @@ h4 {
     margin: 2em 4em;
 }
 
-.text p {
-    margin-top: 8px;
-}
-
 .footer {
     background-color: #1f2937;
-    margin: 0;
 }
 
 .footer p {
@@ -206,4 +182,13 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-auto {
+    flex: auto;
 }
