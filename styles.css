@@ -176,9 +176,32 @@ h2 {
     background-color: #3882f6;
     padding: 2em 4em;
     border-radius: 20px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    color: #f9faf8;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4em;
 }
 
 h4 {
-    color: #f9faf8;
     font-size: 26px;
+    margin: 0;
+}
+
+.sign-up button {
+    border: 3px solid #f9faf8;
+    font-size: 18px;
+    margin: 2em 4em;
+}
+
+.text p {
+    margin-top: 8px;
 }
